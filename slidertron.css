@@ -1,0 +1,88 @@
+#slideshow {
+	width: 1000px;
+	height: 253px;
+	margin-top:0px; 
+    margin-left:24px; 
+    margin-right:0px; 
+    margin-bottom:10px; 
+	padding-top:20px;
+	padding-bottom:0px;
+	align = center
+	background-color: #FFFFFF;
+}
+
+#foobar {
+	position: relative;
+	width: 1024;
+	
+}
+
+#foobar .navigation a {
+	color: #ffffff;
+	text-decoration: none;
+	outline: none;
+}
+
+#foobar .viewer {
+	width: 780px;
+	height: 221px;
+}
+
+#foobar .viewer .reel .slide {
+	position: relative;
+	width: 780px;
+	height: 221px;
+}
+
+#foobar .viewer .reel .slide span {
+	position: absolute;
+	display: block;
+	width: 775px;
+	opacity: 0.70;
+	padding: 15px;
+	background-color: #FFFFFF;
+	color: #000000;
+	bottom: 0px;
+	left: 0px;
+	font-size: 18px;
+	height: 4px;
+}
+
+
+.arrow-left {
+	width: 100px;
+	float: left;
+}
+
+.arrow-right {
+	width: 100px;
+	float: right;
+}
+
+#col1 {
+	width: 107px;
+	float: left;
+}
+
+#col1 a {
+	outline: none;
+	display: block;
+	width: 77px;
+	height: 206px;
+	background: url(images/Lbutton.jpg) no-repeat 18px 130px;
+	
+}
+
+#col2 {
+	float: left;
+	width: 550px;
+}
+
+#col3 a {
+	float: right;
+	outline: none;
+	width: 87px;
+	height: 206px;
+	background: url(images/Rbutton.jpg) no-repeat 2px 130px;
+	
+}

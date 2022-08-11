@@ -1,0 +1,45 @@
+
+
+body {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	align = center
+	padding: 50;
+	
+}
+
+
+img.left {
+	float: left;
+	margin: 7px 30px 0 0;
+}
+
+img.right {
+	float: right;
+	margin: 7px 0 0 30px;
+}
+
+hr { display: none; }
+
+.list1 {
+}
+
+.list1 li {
+	float: left;
+	line-height: normal;
+}
+
+.list1 li img {
+	margin: 0 30px 30px 0;
+}
+
+.list1 li.alt img {
+	margin-right: 0;
+}
+
+#wrapper {
+}
+
+::selection {
+    background: #FF9999;
+    color: #fff;

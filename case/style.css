@@ -1,0 +1,125 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #000000;
+	<body ONDRAGSTART="window.event.returnValue=false" ONCONTEXTMENU="window.event.returnValue=false" onSelectStart="event.returnValue=false">
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	letter-spacing: -2px;
+	font-size: 2.8em;
+	color: #FFFFFF;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 200%;
+}
+
+p, ol {
+}
+
+ul, ol {
+}
+
+a {
+	color: #8A8A8A;
+}
+
+a:hover {
+}
+
+
+
+.container {
+	width: 874px;
+	margin: 80px;
+}
+
+
+
+#sidebar {
+	float: left;
+	width: 210px;
+}
+
+#poptrox {
+	width: 750px;
+	margin: 0px 137px 0px 137px;
+	align= left
+	
+}
+
+#gallery {
+	overflow: hidden;
+	margin: 0px;
+	padding: 10px;
+	list-style: none;
+}
+
+#gallery li {
+	float: left;
+	margin: 0px;
+	padding: 10px;
+}
+
+
+.poptrox_popup
+{
+	position: relative;
+	padding: 1em 1em 3em 1em;
+	background: #ffffff;
+}
+
+.poptrox_popup .loader
+{
+	display: block;
+	margin: 0 0 0 0;
+	text-indent: -9999em;
+	background: url('loader.gif') top center no-repeat;
+}
+
+.poptrox_popup .caption
+{
+	position: absolute;
+	bottom: 1em;
+	left: 1em;
+}
+
+.poptrox_popup .closer
+{
+	position: absolute;
+	bottom: 1em;
+	right: 1em;
+}
+
+#footer {
+	overflow: hidden;
+	width: 940px;
+	height: 100px;
+	margin: 0px auto;
+}
+
+#footer p {
+	margin: 0px;
+	padding: 40px 0px 0px 0px;
+	text-align: center;
+	font-size: 12px;
+}
+

@@ -1,0 +1,115 @@
+@charset "UTF-8";
+ul.MenuBarVertical
+{
+	margin: 0 auto;
+	padding: 0;
+	list-style-type: none;
+	font-size: 100%;
+	cursor: default;
+	width: 148px;
+}
+ul.MenuBarActive
+{
+	z-index: 1000;
+}
+
+ul.MenuBarVertical li
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 100%;
+	position: relative;
+	text-align: center;
+	cursor: pointer;
+	width: 9.3em;
+}
+
+ul.MenuBarVertical ul
+{
+	margin: 0% 0 0 95%;
+	padding: 0;
+	list-style-type: none;
+	font-size: 100%;
+	position: absolute;
+	z-index: 1000;
+	cursor: default;
+	width: 15em;
+	left: -1000em;
+	top: 0px;
+}
+
+ul.MenuBarVertical ul.MenuBarSubmenuVisible
+{
+	left: auto;
+}
+
+ul.MenuBarVertical ul li
+{
+	width: inherit;
+}
+
+ul.MenuBarVertical
+{
+	border: ffffff;
+}
+
+ul.MenuBarVertical ul
+{
+	border: ffffff;
+}
+
+ul.MenuBarVertical a
+{
+	display: block;
+	cursor: pointer;
+	background-color: #FFF;
+	padding: 0.5em 0.75em;
+	color: #900;
+	text-decoration: none;
+}
+
+ul.MenuBarVertical a:hover, ul.MenuBarVertical a:focus
+{
+	background-color: #EA6148;
+	color: #FFF;
+}
+
+ul.MenuBarVertical a.MenuBarItemHover, ul.MenuBarVertical a.MenuBarItemSubmenuHover, ul.MenuBarVertical a.MenuBarSubmenuVisible
+{
+	background-color: #EA6148;
+	color: #FFF;
+}
+
+
+ul.MenuBarVertical a.MenuBarItemSubmenu
+{
+	background-image: url(SpryMenuBarRight.gif);
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+}
+
+
+ul.MenuBarVertical a.MenuBarItemSubmenuHover
+{
+	background-image: url(SpryMenuBarRightHover.gif);
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+}
+
+ul.MenuBarVertical iframe
+{
+	position: absolute;
+	z-index: 1010;
+	filter:alpha(opacity:0.1);
+}
+
+@media screen, projection
+{
+	ul.MenuBarVertical li.MenuBarItemIE
+	{
+		display: inline;
+		f\loat: left;
+		background: #FFF;
+	}
+}
